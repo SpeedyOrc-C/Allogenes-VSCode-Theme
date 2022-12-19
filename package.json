@@ -1,0 +1,25 @@
+{
+  "name": "allogenes",
+  "displayName": "Allogenes",
+  "description": "Colour theme inspired by Genshin Impact. It is a duo-tone theme with a gold and blue colour scheme.",
+  "version": "0.1.0",
+  "publisher": "Chen-Zhanming",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "repository": {
+
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Allogenes",
+        "uiTheme": "vs",
+        "path": "./themes/Allogenes-color-theme.json"
+      }
+    ]
+  }
+}
