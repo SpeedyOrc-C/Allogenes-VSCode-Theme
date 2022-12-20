@@ -55,7 +55,6 @@
 		"tab.inactiveForeground": "#ebe4d8",
 		"tab.border": "#8d867a",
 		
-
 		"toolbar.activeBackground": "#ebe4d8",
 		"toolbar.hoverBackground": "#ebe4d8",
 		
@@ -87,7 +86,7 @@
 		"editor.foreground": "#3b4255",
 		"editorGroup.border": "#8d867a",
 		"editorGroupHeader.tabsBorder": "#0000",
-		"editorGroupHeader.tabsBackground": "#3b4255",
+		"editorGroupHeader.tabsBackground": "#d4bc8d",
 		"editorLineNumber.activeForeground": "#8d867a",
 		"editorLineNumber.foreground": "#d4bc8d",
 		"editorCursor.background": "#ebe4d8",
@@ -95,6 +94,8 @@
 		"editor.selectionBackground": "#d4bc8d",
 		"editor.selectionForeground": "#d4bc8d",
 		"editor.selectionHighlightBackground": "#48536644",
+
+		"debugIcon.breakpointForeground": "#e5445f",
 
 		"editorBracketHighlight.foreground1": "#0075dc",
 		"editorBracketHighlight.foreground2": "#ff2f00",
@@ -107,7 +108,6 @@
 		"editorWidget.foreground": "#3b4255",
 		"editorWidget.border": "#d4bc8d",
 		
-
 		"editorSuggestWidget.background": "#3b4255",
 		"editorSuggestWidget.foreground": "#ebe4d8",
 		"editorSuggestWidget.border": "#0000",
@@ -117,10 +117,14 @@
 		"editorSuggestWidget.focusHighlightForeground": "#2f3948",
 		"editorSuggestWidget.selectedIconForeground": "#3b4255",
 
+
+
 		"gitDecoration.deletedResourceForeground": "#e5445f",
-		"gitDecoration.modifiedResourceForeground": "#b4a58f",
-		"gitDecoration.addedResourceForeground": "#8d867a",
-		"gitDecoration.untrackedResourceForeground": "#8d867a",
+		"gitDecoration.modifiedResourceForeground": "#3b4255",
+		"gitDecoration.addedResourceForeground": "#3b4255",
+		"gitDecoration.untrackedResourceForeground": "#3b4255",
+		"gitDecoration.ignoredResourceForeground": "#3b425588",
+
 
 
 		"settings.focusedRowBorder": "#ce9f6f",
@@ -136,6 +140,28 @@
 		"statusBar.debuggingForeground": "#3b4255",
 	},
 	"tokenColors": [
-
+		{
+			"scope": "comment",
+			"settings": {
+				"foreground": "#8d867a",
+			}
+		},
+		{
+			"scope": "string",
+			"settings": {
+				"foreground": "#9f7b56",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"keyword.control",
+				"entity.name",
+			],
+			"settings": {
+				"foreground": "#3b4255",
+				"fontStyle": "bold"
+			}
+		},
 	]
 }
