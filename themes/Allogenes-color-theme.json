@@ -4,6 +4,15 @@
 		"descriptionForeground": "#485366",
 		"textLink.foreground": "#9f7a56",
 		"textLink.activeForeground": "#9f7a56",
+
+		"menubar.selectionBackground": "#ebe4d8",
+		"menubar.selectionForeground": "#3b4255",
+		"menu.background": "#ebe4d8",
+		"menu.foreground": "#3b4255",
+		"menu.selectionBackground": "#3b4255",
+		"menu.selectionForeground": "#ebe4d8",
+		"menu.separatorBackground": "#ce9f6f",
+		"menu.border": "#ce9f6f",
 		
 		"titleBar.activeBackground": "#3b4255",
 		"titleBar.activeForeground": "#ebe4d8",
@@ -80,7 +89,7 @@
 		"extensionButton.hoverBackground": "#b4a58f",
 		"extensionButton.separator": "#b4a58f",
 
-
+		
 
 		"editor.background": "#ebe4d8",
 		"editor.foreground": "#3b4255",
@@ -186,6 +195,7 @@
 			],
 			"settings": {
 				"foreground": "#8d867a",
+				"fontStyle": "italic"
 			}
 		},
 		{
