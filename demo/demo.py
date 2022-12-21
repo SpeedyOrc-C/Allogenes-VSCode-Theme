@@ -2,17 +2,16 @@ class GuessNumber:
     '''
     Guess number game
     '''
-    def __init__(self, upper_bound: int) -> None:
-        self.upper_bound = upper_bound
+    def __init__(self, answer: int) -> None:
+        self.answer = answer
 
     def main(self):
         from random import randint
 
         print('Guess a number between 1 and 100')
-        number = randint(1, self.upper_bound)
         guess = int(input('Enter your guess: '))
-        while guess != number:
-            if guess < number:
+        while guess != self.answer:
+            if guess < self.answer:
                 print('Too low')
             else:
                 print('Too high')
@@ -31,6 +30,6 @@ def calculate_pi(iter: int) -> float:
 
 
 if __name__ == '__main__':
-    print(f'π is approximately {calculate_pi(1000)}', end='\n')
-    guessNumber = GuessNumber()
+    print(f'π is approximately {calculate_pi(100)}', end='\n')
+    guessNumber = GuessNumber(39)
     guessNumber.main()

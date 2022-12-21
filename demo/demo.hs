@@ -21,5 +21,10 @@ guessNumber number = do
         else
             putStrLn "You guessed it!"
 
+calculatePi :: Integer -> Double
+calculatePi iter = sqrt $ 6 * sum ((**(-2)) <$> [1..fromInteger iter])
+
+main :: IO ()
 main = do
+    putStrLn("π is approximately " ++ show(calculatePi 100))
     guessNumber 39
