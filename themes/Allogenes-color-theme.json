@@ -113,12 +113,9 @@
 
 		"debugIcon.breakpointForeground": "#e5445f",
 
-		"editorBracketHighlight.foreground1": "#0075dc",
-		"editorBracketHighlight.foreground2": "#ff2f00",
-		"editorBracketHighlight.foreground3": "#7aadcf",
-		"editorBracketHighlight.foreground4": "#a34eff",
-		"editorBracketHighlight.foreground5": "#22b900",
-		"editorBracketHighlight.foreground6": "#b17900",
+		"editorBracketHighlight.foreground1": "#3b4255",
+		"editorBracketHighlight.foreground2": "#946a3f",
+		"editorBracketHighlight.foreground3": "#e5445f",
 
 		"editorWidget.background": "#ebe4d8",
 		"editorWidget.foreground": "#3b4255",
