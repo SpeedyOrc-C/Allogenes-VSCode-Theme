@@ -6,8 +6,6 @@ class GuessNumber:
         self.answer = answer
 
     def main(self):
-        from random import randint
-
         print('Guess a number between 1 and 100')
         guess = int(input('Enter your guess: '))
         while guess != self.answer:
