@@ -98,24 +98,25 @@
 
 		
 
-		"editor.background": "#ebe4d8",
+		"editor.background": "#f4efe7",
 		"editor.foreground": "#3b4255",
 		"editorGroup.border": "#8d867a",
 		"editorGroupHeader.tabsBorder": "#0000",
 		"editorGroupHeader.tabsBackground": "#d4bc8d",
-		"editorLineNumber.activeForeground": "#8d867a",
+		"editorLineNumber.activeForeground": "#3b4255",
 		"editorLineNumber.foreground": "#d4bc8d",
 		"editorCursor.background": "#ebe4d8",
 		"editorCursor.foreground": "#3b4255",
 		"editor.selectionBackground": "#d4bc8d",
 		"editor.selectionForeground": "#d4bc8d",
 		"editor.selectionHighlightBackground": "#48536644",
+		"editor.lineHighlightBackground": "#ebe4d8",
 
 		"debugIcon.breakpointForeground": "#e5445f",
 
 		"editorBracketHighlight.foreground1": "#3b4255",
 		"editorBracketHighlight.foreground2": "#946a3f",
-		"editorBracketHighlight.foreground3": "#e5445f",
+		// "editorBracketHighlight.foreground3": "#e5445f",
 
 		"editorWidget.background": "#ebe4d8",
 		"editorWidget.foreground": "#3b4255",
@@ -161,10 +162,19 @@
 	"tokenColors": [
 		{
 			"scope": [
+				"meta.class",
+				"meta.function",
+			],
+			"settings": {
+				"foreground": "#244d94",
+			}
+		},
+		{
+			"scope": [
 				"keyword.control",
 			],
 			"settings": {
-				"foreground": "#3b4255"
+				"foreground": "#e5445f",
 			}
 		},
 		{
@@ -173,7 +183,27 @@
 			],
 			"settings": {
 				"foreground": "#3b4255",
-				"fontStyle": "bold"
+				"fontStyle": "bold",
+			}
+		},
+		{
+			"scope": "entity.name.tag",
+			"settings": {
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"support.type",
+			],
+			"settings": {
+				"fontStyle": "bold",
+			}
+		},
+		{
+			"scope": "support.function",
+			"settings": {
+				"foreground": "#677c46",
 			}
 		},
 		{
@@ -181,7 +211,7 @@
 				"constant.numeric"
 			],
 			"settings": {
-				"foreground": "#32538c"
+				"foreground": "#244d94"
 			}
 		},
 		{
@@ -190,12 +220,12 @@
 			],
 			"settings": {
 				"foreground": "#795938",
-				// "fontStyle": "bold"
 			}
 		},
 		{
 			"scope": [
-				"punctuation.separator"
+				"punctuation.separator",
+				"keyword.operator",
 			],
 			"settings": {
 				"foreground": "#8d867a",
@@ -217,6 +247,13 @@
 			"settings": {
 				"foreground": "#3b4255",
 				"fontStyle": "strikethrough"
+			}
+		},
+		{
+			"scope": "meta.selector",
+			"settings": {
+				"foreground": "#3b4255",
+				"fontStyle": "underline"
 			}
 		}
 	]
